@@ -1,0 +1,376 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+@font-face {
+    font-family: 'kodak';
+    src: url('../fonts/KoodakBold.eot') format('eot'),
+        url('../fonts/KoodakBold.ttf') format('truetype'),
+        url('../fonts/KoodakBold.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nazanin';
+    src: url('../fonts/Nazanin.eot') format('eot'),
+        url('../fonts/Nazanin.ttf') format('truetype'),
+        url('../fonts/Nazanin.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot') format('eot'),
+        url('../fonts/Yekan.ttf') format('truetype'),
+        url('../fonts/Yekan.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+/* navigation */
+.navbar-brand img {
+    height: 4.2rem;
+}
+
+
+.nav-link {
+    color: #2d2d2d !important;
+    font-family: 'nazanin';
+    font-weight: 600;
+
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #06b690c9 !important;
+}
+
+/* end navigation */
+
+/* home */
+
+
+
+.caption {
+    position: relative !important;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.caption h1 {
+    font-family: 'yekan';
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.caption h3 {
+    font-family: 'nazanin';
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.caption a {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0 auto;
+    font-family: 'yekan';
+    color: #FFF;
+} 
+
+.home-inner{
+    background-image: url(../img/bg.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* end home */
+
+/* about */
+
+.jumbotron {
+    background: #1055a3;
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+.jumbotron h3 {
+    font-size: 2.7rem;
+    font-family: 'kodak';
+    font-weight: 300;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+    font-family: 'nazanin';
+    font-weight: 200;
+}
+
+
+/* end about */
+
+/* services */
+#services .row {
+    background: #6200ff;
+}
+
+
+.services .fa-4x {
+    color: #fff;
+}
+
+.services h3 {
+    font-family: 'yekan';
+    font-size: 2.1rem;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.services p {
+    font-family: 'kodak';
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #FFF;
+}
+
+
+/* end services */
+
+
+/* authors */
+.authors .title {
+    font-family: 'kodak';
+    font-size: 3.2rem;
+}
+
+.authors .underline {
+    width: 20rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 1rem auto 2rem;
+
+}
+
+#authors .row {
+    padding: 1rem 0 3rem;
+
+}
+
+.authors .card {
+    border-radius: 0;
+    box-shadow: 3px 3px 5px #1ebba3;
+    margin: 1rem 0;
+
+}
+
+.authors .card:hover {
+    background-color: #008874;
+
+}
+
+.authors .card:hover i,
+.authors .card:hover h3,
+.authors .card:hover p {
+    color: #FFF;
+}
+
+.card-body .img-fluid {
+    margin-top: -75px;
+    
+
+}
+
+.card-body h3 {
+    font-family: 'yekan';
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-body h5 {
+    font-family: 'nazanin';
+    font-size: 1rem;
+    color: #000;
+    font-weight: bolder;
+}
+
+.card-body p {
+    font-family: 'yekan';
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.card-body i {
+    color: #000;
+    font-size: 1.8rem;
+}
+
+.card-body i:hover {
+    color: #000 !important;
+    font-size: 1.8rem;
+}
+
+/* end authors */
+
+/* footer */
+
+footer {
+    padding: 2rem 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+
+}
+
+footer img {
+    height: 5rem;
+    margin: 1.6rem;
+}
+
+footer p {
+    font-family: 'yekan';
+
+}
+
+footer i {
+    font-size: 1.8rem;
+    margin: 1.2rem 0.5rem 0 0;
+    color: #fff;
+}
+
+footer i:hover {
+    color: #1ebba3;
+}
+
+footer hr {
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+.ariasoft-title {
+    color: #1ebba3;
+}
+
+/* footer */
+
+
+
+
+
+/*-- media queries*/
+@media (max-width: 767px) {
+    .caption h1 {
+        font-size: 2.2rem;
+    }
+
+    .caption h3 {
+        font-size: 1.4rem;
+    }
+
+    .caption a {
+        font-size: 1.1rem;
+    }
+
+    .jumbotron h3 {
+        font-size: 1.8rem;
+    }
+
+    .jumbotron p {
+        font-size: 1.3rem;
+        font-weight: 500;
+        font-family: kodak;
+        text-align: right;
+    }
+
+    .authors .title {
+        font-size: 3rem;
+    }
+
+    .authors .underline {
+        width: 15rem;
+        height: 0.2rem;
+        margin: 1rem auto 2rem;
+
+    }
+
+    #authors .row {
+        padding: 1rem 0 3rem;
+
+    }
+
+    .authors .card {
+        margin: .5rem 0;
+        padding: 1.1rem 0;
+
+    }
+
+    .card-body .img-fluid {
+        margin-top: -75px;
+
+    }
+
+    .card-body h3 {
+        font-size: 2.4rem;
+        font-weight: 800;
+    }
+
+    .card-body h5 {
+        font-family: 'nazanin';
+        font-size: 1.8rem;
+    }
+
+    .card-body p {
+        font-size: 0.8rem;
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+
+    .card-body i {
+        color: #000;
+        font-size: 1.8rem;
+    }
+
+    .card-body i:hover {
+        color: #000 !important;
+        font-size: 1.8rem;
+    }
+
+
+
+
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
